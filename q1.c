@@ -5,11 +5,11 @@ int main(){
 
     int x1,y1,x2,y2,x3,y3,x4,y4;
 
-
+//input nodes
     scanf("%d %d",&x1,&y1);
     scanf("%d %d",&x2,&y2);
     scanf("%d %d",&x3,&y3);
-
+//calculate 4th node
     if(x1==x2){
         if(y1==y3){
             x4=x2+x3-x1;
@@ -31,7 +31,7 @@ int main(){
             y4=y1+y2-y3;            
         }
     }
-
+//print result
     printf("%d %d",x4,y4);
 
 
